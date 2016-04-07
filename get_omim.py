@@ -50,7 +50,7 @@ values={
 	'apiKey' : 'WaSdXwt5R3evXruxxg-49g',
 	'search' : 'muscle weakness muscular dystrophy',
     'limit' : 7000
-    #'limit' : 200
+    #'limit' : 202
 	#'include': 'geneMap'
 }
 
@@ -81,10 +81,11 @@ tmplst = []
 allsymbols = []
 
 while( len(mimlst2) > 20):
+    print "mimlst2 size = " + str(len(mimlst2)) + "\n"
 #for j in range(350):
     # read 20 MIM entries at a time
     for i in range(20):
-        tmplst.append(mimlst2.pop(i))
+        tmplst.append(mimlst2.pop())
 
     print "size of tmplst" + str(len(tmplst)) + "\n"
     searchEntryForGeneSymbol(tmplst)
