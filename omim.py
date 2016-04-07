@@ -26,15 +26,15 @@ class OMIM(object):
 
 	def getXMLData(self):
 		url = self.makeHandlerURL()
-		print(url)
+		#print(url)
 		data = urllib.urlencode(self.values)
-		print(data)
+		#print(data)
 		
 		# if you pass data, urllib uses POST
 		req = urllib2.Request(url, data)
 		# workaround
 		req=url + "/?" + data
-		print req
+		#print req
 		response = urllib2.urlopen(req)
         # return a string
 		return(response.read())
