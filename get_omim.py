@@ -48,7 +48,7 @@ values={
 	'format' : 'xml',
 	#'mimNumber' : 100100,
 	'apiKey' : 'WaSdXwt5R3evXruxxg-49g',
-	'search' : 'muscle weakness muscular dystrophy',
+	'search' : 'muscular dystrophy',
     'limit' : 7000
     #'limit' : 202
 	#'include': 'geneMap'
