@@ -37,7 +37,7 @@ def searchEntryForGeneSymbol(listof20):
 
 
 # We need to register apiKey through OMIM
-apiKey='WaSdXwt5R3evXruxxg-49g'
+apiKey='<replace_with_apikey>'
 
 # OMIM has different handlers for different type of data return
 # http://www.omim.org/help/api
@@ -47,7 +47,7 @@ apiKey='WaSdXwt5R3evXruxxg-49g'
 values={
 	'format' : 'xml',
 	#'mimNumber' : 100100,
-	'apiKey' : 'WaSdXwt5R3evXruxxg-49g',
+	'apiKey' : apiKey,
 	'search' : 'muscular dystrophy',
     'limit' : 7000
     #'limit' : 202
