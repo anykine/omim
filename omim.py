@@ -11,7 +11,7 @@ import urllib2
 class OMIM(object):
 
 	def __init__(self, handler="entry", action="search1"):
-		self.apiKey='WaSdXwt5R3evXruxxg-49g'
+		self.apiKey='myAPIKey'
 		self.api = 'http://api.omim.org/api'
 		if handler in ['entry', 'geneMap', 'search', 'apiKey', 'dump']:
 			self.handler = handler
